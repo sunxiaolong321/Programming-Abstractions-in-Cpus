@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Monte_Cardo_integration", "Monte_Cardo_integration\Monte_Cardo_integration.vcxproj", "{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Debug|x64.ActiveCfg = Debug|x64
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Debug|x64.Build.0 = Debug|x64
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Debug|x86.Build.0 = Debug|Win32
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Release|x64.ActiveCfg = Release|x64
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Release|x64.Build.0 = Release|x64
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Release|x86.ActiveCfg = Release|Win32
+		{7B9CE3AC-562D-4CAE-83E7-A6C3E3281C83}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87FA1EC6-AD3A-4B3B-BB15-AFE5F19C15A2}
+	EndGlobalSection
+EndGlobal
