@@ -60,36 +60,42 @@ string replace(string str, char c1, char c2)
 		return str1;
 }
 
+//判断str中是否有s1字符串, 并返回其位置
+int choose(string str, string s1)
+{
+	int i, j = 0, n = 0;
+	for (i = 0; i < str.length(); i++)
+	{
+		while (str[i] == s1[j])
+		{
+			if (j == s1.length()-1)
+			{
+				n = i - s1.length()+1;
+				break;
+			}
+			j++;
+			i++;
+		}
+	}
+	return n;
+}
+
 /*
 *编写一个函数，返回从str的复制字符串，其中每个str中的s1都用s2代替。
 */
 string replaceALL(string str, string s1, string s2)
 {
-	int i, j;
-	string str1;
-	for (i = choose(str, s1); i < str.length(); i++)
-	{
-		str1 += s2[j];
-		j++;
-	}
-}
-
-//判断str中是否有s1字符串, 并返回其位置
-int choose(string str, string s1)
-{
-	int i, j, n=0;
+	int i, j = 0, n;
+	string str1, str2;
+	n = choose(str, s1);
 	for (i = 0; i < str.length(); i++)
 	{
-		for (j = 0; str[i]==s1[j]; j++)
+		if (i == n)
 		{
-			if (j == s1.length())
-			{
-				n = i + s1.length() - 1;
-				break;
-			}
-			i++;
+			for (j = 0; j < s2.length(); j++, i++)
+				str1 += s2[j];
 		}
-
+		str1 += str[i];
 	}
-	return n;
+	return str1;
 }

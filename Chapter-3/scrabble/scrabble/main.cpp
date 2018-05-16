@@ -17,12 +17,11 @@ int main()
 
 int main()
 {
-	string word;
-	char c1, c2;
+	string word, c1, c2;
 	cout << "your word" << endl;
 	cin >> word;
 	cin >> c1;
 	cin >> c2;
-	cout << replace(word, c1, c2) << endl;
+	cout << replaceALL(word, c1, c2) << endl;
 }
 

@@ -19,4 +19,11 @@ std::string removeDoubleLetters(std::string str);
 */
 std::string replace(std::string str, char c1, char c2);
 
+int choose(std::string str, std::string s1);
+
+/*
+*编写一个函数，返回从str的复制字符串，其中每个str中的s1都用s2代替。
+*/
+std::string replaceALL(std::string str, std::string s1, std::string s2);
+
 #endif
